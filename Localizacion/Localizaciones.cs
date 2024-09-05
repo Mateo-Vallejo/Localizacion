@@ -12,12 +12,12 @@ namespace Localizacion
     {
         private int idLocalizaciones = 0;
         private Personas? personas = null;
-        private Ubicaciones? ubicaiones =null;
+        private Ubicaciones? ubicaciones =null;
         private Imagenes? imagenes =null;
 
         public void Ejecutar()
         {
-            Console.WriteLine("Bienvenido!");
+            Console.WriteLine("\"Clases - Modelos, Entidades, Enumerables\"");
             this.Localizacion();
         }
 
@@ -34,6 +34,7 @@ namespace Localizacion
 
             // Consultas
            // var consulta = localizaciones.Where(x => x.Persona?.Cedula == "123456789").ToList();
+           // console.WriteLine(/n);
               
 
         }
@@ -43,8 +44,10 @@ namespace Localizacion
         {
             var localizacion = new Localizaciones()
             {
-                
-
+                idLocalizaciones = id,
+                personas = persona,
+                ubicaciones=ubicacion,
+                imagenes = imagen,
             };
             return localizacion;
         }
@@ -53,7 +56,7 @@ namespace Localizacion
         {
             var detalles = new Ubicaciones();
             detalles.IdLocalidades = id;
-            detalles.CodigoPostal = 24;
+            detalles.CodigoPostal = 050001;
             return detalles;
         }
 
@@ -61,7 +64,11 @@ namespace Localizacion
         {
             foreach (var localizacion in localizaciones)
             {
-
+                Console.WriteLine("|" + localizacion.idLocalizaciones +
+                    "|" + localizacion.personas?.Cedula +
+                    "|" + localizacion.personas?.Nombre +
+                    "|" + localizacion.ubicaciones?.Pais +
+                    "|" + localizacion.ubicaciones?.Ciudad);
             }
         }
 
@@ -170,6 +177,23 @@ namespace Localizacion
             List<Localizaciones> lista = new List<Localizaciones>();
             return lista;
         }
+        //Futuro metodo menu
+        /*
+        private void menu()
+        {
+            do
+            {
+                int opcion = 0;
+                // Menu
+                // 
+
+                switch (opcion)
+                {
+                    case 1: opcion = 1; break;
+                }
+            } while (true);
+        }
+        */
 
     }
 }

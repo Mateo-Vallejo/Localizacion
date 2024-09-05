@@ -1,3 +1,6 @@
-﻿using Localizacion.Localizaciones;
+﻿using Localizacion;
 
-Console.WriteLine("Hello, World!");
+var localizacion = new Localizaciones();
+localizacion.Ejecutar();
+
+
