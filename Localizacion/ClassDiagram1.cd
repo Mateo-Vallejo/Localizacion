@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Localizacion.Personas">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAgAAKAQAAAgEAAAAAAAgAAAAIAAAAAAAA=</HashCode>
+      <FileName>Personas.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Localizaciones" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Localizacion.Ubicaciones">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAQAAQAEAgAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAA=</HashCode>
+      <FileName>Ubicaciones.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Localizaciones" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Localizacion.Localidades">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAQAAAAEAAQAAAgEAAQIAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>Localidades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Localizacion.Imagenes">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAggAAAAAAAAAAAACAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Imagenes.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Localizaciones" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Localizacion.DetallesImagenes">
+    <Position X="8.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAQAAAAEAAAEAAAABAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>DetallesImagenes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Localizacion.Localizaciones">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCIABAAAAAAAQEgEABAAAAAAAAAEAABAAAAAAIgAAA=</HashCode>
+      <FileName>Localizaciones.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
